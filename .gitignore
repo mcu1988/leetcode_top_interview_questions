@@ -1,0 +1,6 @@
+.DS_Store
+out/
+.git/
+.idea/
+*.iml
+*.class

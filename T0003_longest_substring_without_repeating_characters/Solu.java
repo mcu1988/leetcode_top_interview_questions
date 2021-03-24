@@ -7,6 +7,7 @@ class Solu {
 
         // 解法1
         // 使用2个指针滑动，指针之间的字符串使用map存储次数，r滑动出现重复时，滑动l
+        // 时间复杂度O(n), 空间复杂度O(n)
         public int lengthOfLongestSubstring(String s) {
             if(s == null || s.length() == 0) return 0;
 
@@ -37,6 +38,7 @@ class Solu {
     // 解法2
     // 利用dp, dp[i]表示以i位置结尾能扩展出去的字符串长度
     // dp[i] = min(dp[i-1] + 1, i - arr[i]上次出现的位置);
+    // 时间复杂度O(n), 空间复杂度O(n)
     public int lengthOfLongestSubstring(String s) {
         if (s == null || s.length() == 0) return 0;
 

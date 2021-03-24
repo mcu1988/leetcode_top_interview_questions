@@ -14,6 +14,7 @@ class Solu {
         // 先遍历链表转成整数，再相加，最后再转成链表，存在整数溢出的问题
 
         // 先遍历链表逐个相加，使用进位标识，最后注意判断进位标识是不是0
+        // 时间复杂度O(m+n), 空间复杂度O(1)
         public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
             if(l1 == null) return l2;
             if(l2 == null) return l1;
