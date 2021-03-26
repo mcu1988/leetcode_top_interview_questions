@@ -9,3 +9,8 @@
 [T2](./T0002_add_2list_numbers)
 
 [T3](./T0003_longest_substring_without_repeating_characters)
+
+[T4](./T0004_median_of_2sorted_arrays)
+
+[T5](./T0005_longest_palindromic_substring)
+

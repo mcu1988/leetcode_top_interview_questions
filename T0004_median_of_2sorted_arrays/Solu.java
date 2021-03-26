@@ -124,6 +124,7 @@ class Solu {
             return result;
         }
 
+        // 返回2个有序数组第k小的元素，k从1开始计数
         public int minK(int[] nums1, int[] nums2, int k) {
             int m = nums1.length, n = nums2.length;
 
@@ -161,6 +162,7 @@ class Solu {
             return result;
         }
 
+        // 返回2个等长有序数组的上中位数
         public int getUpMid(int[] nums1, int l1, int r1, int[] nums2, int l2, int r2) {
 
             int m = r1 - l1 + 1;
