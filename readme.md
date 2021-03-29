@@ -14,3 +14,8 @@
 
 [T5](./T0005_longest_palindromic_substring)
 
+[T7](./T0007_reverse_integer)
+
+[T8](./T0008_string_to_integer)
+
+[T11](./T0011_container_with_most_water)
