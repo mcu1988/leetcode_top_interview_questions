@@ -18,4 +18,10 @@
 
 [T8](./T0008_string_to_integer)
 
+[T10](./T0010_regular_expression_matching)
+
 [T11](./T0011_container_with_most_water)
+
+[T12](./T0012_integer_to_roman)
+
+[T13](./T0013_roman_to_integer)
