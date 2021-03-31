@@ -37,3 +37,38 @@
 - 递归里存在大量重复调用行为
 - 使用二维数组存储si和pi位置的结果，重复调用时，直接从数组里取值
 - java实现，lc耗时16ms
+
+# 思路3，dp
+- 建立二维dp表 new boolean[m+1][n+1]
+- 先填充边界
+    - si = m时
+        - pi = n, dp[m][n] = true
+        - 其余情况看pi+1是否是\*
+            - 不是\*，dp[m][pi] = false
+            - 是\*，dp[m][pi] = dp[m][pi+2]
+    - pi = n时，dp[m][n] = true
+- 中间值填充
+    - s[si] 和 p[pi]能匹配上
+        - 查看pi+1是否为\*
+            - p[pi+1] = \*
+                - pi和pi+1匹配0次，dp[si][pi] = dp[si][pi+2]
+                - pi和pi+1匹配1次，dp[si][pi] = dp[si+1][pi+2]
+                - pi和pi+1匹配>=2次，dp[si][pi] = dp[si+1][pi]
+                    - eg, s[si...end] = aaabc, p[pi...end] = a\*bc,
+                    - a\*bc写为aa\*bc，s和p的第一个a消掉，后面的继续匹配
+                - 最终是3中情况的或运算，dp[si][pi] = dp[si][pi+2] || dp[si+1][pi+2] || dp[si+1][pi]
+            - p[pi+1] != \*
+                - dp[si][pi] = dp[si+1][pi+1]
+    - s[si] 和 p[pi]不能匹配上
+        - p[pi+1] == \*
+            - dp[si][pi] = dp[si][pi+2]
+        - p[pi+1] != \*
+            - dp[si][pi] = false
+- dp[si][pi]的值只依赖于si,si+1和pi,pi+1,pi+2的值，因此si从高往低遍历，pi从高往低遍历
+- 时间复杂度O(m*n), 空间复杂度O(m*n)
+- java实现lc耗时2ms
+
+# 思路4，节省空间的dp
+- dp[si][pi]的求解只依赖于 dp[si][pi+2]，dp[si+1][pi]，dp[si+1][pi+1]，dp[si+1][pi+2]
+- si行的切结依赖于si+1行的状态，可以用2个一维数组滚动更新si和si+1行的状态
+- 进一步的可以用4个变量标记依赖值即可

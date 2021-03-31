@@ -68,6 +68,7 @@ class Solu {
             return false;
         }
 
+        // 检查字符串s和p的有效性
         public boolean isValid(String s, String p) {
             // 检查字符串s, s中不能包含 . 和 *
             for(int i=0; i<s.length(); i++) {
@@ -86,7 +87,7 @@ class Solu {
 
         // 方法2 缓存版本的递归
         // 使用二维数组存储si和pi的调用结果
-        public boolean isMatch(String s, String p) {
+        public boolean isMatch2(String s, String p) {
             if(s == null || p == null) return false;
 
             // 检查字符串有效性
@@ -170,14 +171,63 @@ class Solu {
             return dp[si][pi];
         }
 
+        // 方法3，动态规划
+        // 建立二维dp表，dp[i][j]表示s[i...end]和p[j...end]是匹配
+        // 时间复杂度O(m*n), 空间复杂度O(m*n)
+        public boolean isMatch(String s, String p) {
+            if (s == null || p == null) return false;
 
+            int m = s.length(), n = p.length();
+            // si范围是0~m, pi范围是0~n
+            // dp[i][j]表示s[i...end]和p[j...end]是匹配
+            boolean[][] dp = new boolean[m+1][n+1];
 
-    }
+            // s字符串到尾部时的边界值填充
+            dp[m][n] = true; // s和p都结束时时true
+            for(int i=n-2; i>=0; i--) { // 从后往前遍历，因为dp表示的是后缀字符串是否匹配
+                // 如果当前字符串的下一个字符是*, 消去i和i+1位置的值，匹配0次
+                if(p.charAt(i+1) == '*') {
+                    dp[m][i] = dp[m][i+2];
+                }
+                // 下一个字符串不是*时，结果是false
+            }
+
+            //
+            for(int si=m-1; si>=0; si--) {
+                for(int pi=n-1; pi>=0; pi--) {
+                    // si位置和pi位置的字符串能匹配上
+                    if(s.charAt(si) == p.charAt(pi) || p.charAt(pi) == '.') {
+
+                        // 查看pi+1位置是否是*
+                        if(pi+1 < n && p.charAt(pi+1) == '*') {
+                            // 是*，依次匹配0，1，>=2次
+                            // 匹配>=2次的情况，p中a*...写成aa*...的形式，和s中的a...第一个a抵消，剩下的看si+1和pi是否匹配
+                            dp[si][pi] = dp[si][pi+2] // *匹配0次
+                                         || dp[si+1][pi+2] // *匹配1次
+                                         || dp[si+1][pi]; // *匹配多次
+                        } else {
+                            // pi+1不是*的情况
+                            dp[si][pi] = dp[si+1][pi+1];
+                        }
+                    } else {
+                        // si位置和pi位置的字符串能匹配不上
+                        // 查看下一个字符是否是*
+                        if(pi+1 < n && p.charAt(pi+1) == '*') {
+                            dp[si][pi] = dp[si][pi+2];
+                        }
+                        // pi+1不是*， false
+                    }
+                }
+            }
+            return dp[0][0];
+        }
+
+        }
 
     public static void main(String[] args) {
         Solution app = new Solution();
-        app.isMatch("aab", "c*a*b");
-        System.out.println(app.isMatch("mississippi", "mis*is*p*."));
+        app.isMatch("ab", ".*");
+        System.out.println(app.isMatch("ab", ".*"));
     }
 
 }
