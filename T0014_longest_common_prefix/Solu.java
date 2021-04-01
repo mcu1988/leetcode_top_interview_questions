@@ -25,6 +25,8 @@ class Solu {
                 }
                 // 更新长度
                 maxCommon = Math.min(maxCommon, tmp);
+                // 如果最长公共子串长度是0，退出循环
+                if(maxCommon == 0) break;
             }
             return result.substring(0, maxCommon);
         }
