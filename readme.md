@@ -33,3 +33,5 @@
 [T17](./T0017_letter_combinations_of_a_phone_number)
 
 [T19](./T0019_remove_nth_node_from_end_of_list)
+
+[T20](./T0020_valid_parentheses)
