@@ -1,4 +1,4 @@
-# leetcode t4
+# leetcode t7
 - 给定一个32位带符号整数，对除符号位以外的数字逆序
 - eg， 
     - x = 123, return 321

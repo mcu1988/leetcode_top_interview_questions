@@ -1,9 +1,5 @@
 package T0019_remove_nth_node_from_end_of_list;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 class Solu {
 
     public static class ListNode {

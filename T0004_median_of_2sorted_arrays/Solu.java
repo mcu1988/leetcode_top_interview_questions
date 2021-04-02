@@ -1,7 +1,5 @@
 package T0004_median_of_2sorted_arrays;
 
-import java.util.HashMap;
-
 class Solu {
     static class Solution {
 

@@ -34,6 +34,6 @@
 
 [T19](./T0019_remove_nth_node_from_end_of_list)
 
-[T20](./T0021_merge_two_sorted_lists)
+[T20](./T0020_valid_parentheses)
 
 [T21](./T0021_merge_two_sorted_lists)

@@ -1,10 +1,5 @@
 package T0014_longest_common_prefix;
 
-import org.omg.CORBA.MARSHAL;
-import org.omg.PortableInterceptor.INACTIVE;
-
-import java.util.Arrays;
-
 class Solu {
     static class Solution {
 

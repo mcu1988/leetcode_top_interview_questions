@@ -1,8 +1,5 @@
 package T0008_string_to_integer;
 
-import org.omg.CORBA.MARSHAL;
-import org.omg.PortableInterceptor.INACTIVE;
-
 class Solu {
     static class Solution {
 
