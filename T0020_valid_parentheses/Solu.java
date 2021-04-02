@@ -1,17 +1,8 @@
 package T0020_valid_parentheses;
 
-import java.util.Calendar;
 import java.util.Stack;
 
 class Solu {
-
-    public static class ListNode {
-         int val;
-         ListNode next;
-         ListNode() {}
-         ListNode(int val) { this.val = val; }
-         ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
 
     static class Solution {
 
