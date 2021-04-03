@@ -39,3 +39,5 @@
 [T21](./T0021_merge_two_sorted_lists)
 
 [T22](./T0022_generate_parentheses)
+
+[T23](./T0023_merge_k_sorted_lists)
