@@ -16,7 +16,7 @@ class Solu {
     static class Solution {
 
         // 方法1
-        // 时间复杂度O(4^n/(sqrt(n)))，与卡特兰数有关空间复杂度O(n)
+        // 时间复杂度，O(k * n)，空间复杂度O(1)，n是合并后总结点个数
         public ListNode mergeKLists1(ListNode[] lists) {
             if(lists == null || lists.length == 0) return null;
 
@@ -29,7 +29,7 @@ class Solu {
         }
 
         // 合并2个有序链表
-        // 时间复杂度O(n), 空间复杂度O(1)
+        // 时间复杂度O(m), 空间复杂度O(1)，m是2个链表合并后的总结点数
         public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
             if(l1 == null) return l2;
             if(l2 == null) return l1;
@@ -59,7 +59,8 @@ class Solu {
 
 
         // 方法2
-        // 时间复杂度O(4^n/(sqrt(n)))，与卡特兰数有关空间复杂度O(n)
+        // 使用归并排序
+        // 时间复杂度，O(n * log(k))，空间复杂度O(log(k))
         public ListNode mergeKLists2(ListNode[] lists) {
             if(lists == null || lists.length == 0) return null;
 
@@ -81,6 +82,7 @@ class Solu {
 
         // 方法3
         // 使用最小堆，每次把k个链表的1个元素加入最小堆，弹出堆顶元素，将堆顶元素所在链表的下一个节点加入最小堆
+        // 时间复杂度，O(n * log(k))，空间复杂度O(k)
         public ListNode mergeKLists(ListNode[] lists) {
             if(lists == null || lists.length == 0) return null;
 
