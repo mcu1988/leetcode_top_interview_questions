@@ -41,3 +41,7 @@
 [T22](./T0022_generate_parentheses)
 
 [T23](./T0023_merge_k_sorted_lists)
+
+[T26](./T0026_remove_duplicates_from_sorted_array)
+
+[T28](./T0028_Implement_strStr)
