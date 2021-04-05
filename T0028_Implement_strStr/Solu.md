@@ -1,7 +1,10 @@
-# leetcode t26
-- 移除有序链表中的重复元素，返回unique的元素数量
+# leetcode t28
+- 查找一个字符串在另外一个字符串中出现的其实位置
+- 给定字符串haystack和needle，如果b在a中出现，返回第一个在a中出现的起始位置，如果不出现，返回-1
+- 如果needle为空，题目规定返回-1
 - eg， 
-    - nums = [0,0,1,1,1,2,2,3,3,4], return 5
+    - haystack = "hello", return "ll"
+    - haystack = "aaab", return "ab"
         
 # 思路1
 - 由于数组有序，重复值都相邻
