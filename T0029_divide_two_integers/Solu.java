@@ -1,7 +1,5 @@
 package T0029_divide_two_integers;
 
-import com.sun.xml.internal.org.jvnet.mimepull.MIMEConfig;
-
 class Solu {
 
     static class Solution {
