@@ -24,7 +24,7 @@ class Solu {
             int r = nums.length;
 
             // l < r的情况下，考察l位置的元素
-            while(l < r) {
+            while(l < r) { // r...end是已经验证的无效数字区域，l==r时循坏终止
                 if(nums[l] == l+1) {
                     // l位置 = l+1，有效， l+1
                     l++;
