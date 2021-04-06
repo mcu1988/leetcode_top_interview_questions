@@ -51,3 +51,9 @@
 [T33](./T0033_search_in_rotated_sorted_array)
 
 [T34](./T0034_find_first_and_last_position_of_element_in_sorted_array)
+
+[T36](./T0036_valid_sudoku)
+
+[T37](./T0037_sudoku_solver)
+
+[T38](./T0038_count_and_say)
