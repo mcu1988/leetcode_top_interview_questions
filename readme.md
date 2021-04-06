@@ -57,3 +57,5 @@
 [T37](./T0037_sudoku_solver)
 
 [T38](./T0038_count_and_say)
+
+[T41](./T0041_first_missing_positive)
