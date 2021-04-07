@@ -59,3 +59,5 @@
 [T38](./T0038_count_and_say)
 
 [T41](./T0041_first_missing_positive)
+
+[T42](./T0042_trapping_rain_water)
