@@ -61,3 +61,7 @@
 [T41](./T0041_first_missing_positive)
 
 [T42](./T0042_trapping_rain_water)
+
+[T44](./T0044_wildcard_matching)
+
+[T46](./T0046_permutations)
