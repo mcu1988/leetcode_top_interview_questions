@@ -65,3 +65,7 @@
 [T44](./T0044_wildcard_matching)
 
 [T46](./T0046_permutations)
+
+[T48](./T0048_rotate_image)
+
+[T49](./T0049_group_anagrams)
