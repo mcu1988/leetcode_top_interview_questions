@@ -16,29 +16,26 @@ class Solu {
 
             List<List<Integer>> result = new ArrayList<>();
 
-            process(nums, 0, new ArrayList<>(), result);
+            process(nums, 0, result);
 
             return result;
         }
 
         // 递归查看index位置
         // index表示当前递归到的位置
-        // list表示已经处理的元素的集合
         // result表示结果集
-        public void process(int[] nums, int index, List<Integer> list, List<List<Integer>> result) {
+        public void process(int[] nums, int index, List<List<Integer>> result) {
             if(index == nums.length) {
-                // list是引用类型，需要新建，再加入到result
-                result.add(new ArrayList<>(list));
+                List<Integer> list = new ArrayList<>();
+                for(int i=0; i<nums.length; i++) list.add(nums[i]);
+                result.add(list);
             }
 
             // index位置和index...end位置更换
             for(int i=index; i<nums.length; i++) {
                 swap(nums, index, i);
-                list.add(nums[index]);
-                process(nums, index+1, list, result);
-
-                // 回溯时需要恢复list，恢复index位置的值
-                list.remove(index);
+                process(nums, index+1, result);
+                // 回溯时恢复数组
                 swap(nums, index, i);
             }
         }
