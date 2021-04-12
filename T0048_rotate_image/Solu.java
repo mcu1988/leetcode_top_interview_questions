@@ -1,8 +1,5 @@
 package T0048_rotate_image;
 
-import java.util.ArrayList;
-import java.util.List;
-
 class Solu {
 
     static class Solution {
