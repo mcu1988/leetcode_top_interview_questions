@@ -31,10 +31,13 @@ class Solu {
                 result.add(new ArrayList<>(list));
             }
 
+            // index位置和index...end位置更换
             for(int i=index; i<nums.length; i++) {
                 swap(nums, index, i);
                 list.add(nums[index]);
                 process(nums, index+1, list, result);
+
+                // 回溯时需要恢复list，恢复index位置的值
                 list.remove(index);
                 swap(nums, index, i);
             }
