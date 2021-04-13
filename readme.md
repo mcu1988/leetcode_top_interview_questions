@@ -69,3 +69,7 @@
 [T48](./T0048_rotate_image)
 
 [T49](./T0049_group_anagrams)
+
+[T50](./T0050_pow_xn)
+
+[T53](./T0053_maximum_subarray)
