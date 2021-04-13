@@ -17,3 +17,4 @@
     - preSum <=0，那么以i位置结尾的子数组最大和是nums[i]
     - preSum >0，那么以i位置结尾的子数组最大和是preSum + nums[i]
 - 时间复杂度O(N), 空间复杂度O(1)
+- java实现耗时0ms
