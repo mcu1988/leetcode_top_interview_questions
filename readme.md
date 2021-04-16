@@ -64,6 +64,8 @@
 
 [T44](./T0044_wildcard_matching)
 
+[T45](./T0045_jump_game_ii)
+
 [T46](./T0046_permutations)
 
 [T48](./T0048_rotate_image)
