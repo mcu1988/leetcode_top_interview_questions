@@ -89,3 +89,5 @@
 [T62](./T0062_unique_paths)
 
 [T66](./T0066_plus_one)
+
+[T69](T0069_sqrtx)
