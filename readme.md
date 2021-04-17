@@ -66,6 +66,10 @@
 
 [T45](./T0045_jump_game_ii)
 
+[T45_follow_up](./T0045_jump_game_ii_follow_up)
+
+[T1306](T1306_jump_game_iii)
+
 [T46](./T0046_permutations)
 
 [T48](./T0048_rotate_image)
