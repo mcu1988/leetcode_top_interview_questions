@@ -91,3 +91,5 @@
 [T66](./T0066_plus_one)
 
 [T69](T0069_sqrtx)
+
+[T687](T0687_longest_univalue_path)
