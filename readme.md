@@ -100,4 +100,8 @@
 
 [T76](T0076_minimum_window_substring)
 
+[T78](T0078_subsets)
+
+[T79](T0079_word_search)
+
 [T687](T0687_longest_univalue_path)
