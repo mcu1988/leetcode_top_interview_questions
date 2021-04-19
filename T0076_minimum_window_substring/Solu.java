@@ -61,8 +61,6 @@ class Solu {
 
         Solution app = new Solution();
 
-        int[] nums = {2,0,2,1,1,0};
-
         String s = "bba", t = "ab";
 
         app.minWindow(s, t);
