@@ -92,4 +92,10 @@
 
 [T69](T0069_sqrtx)
 
+[T70](T0070_climbing_stairs)
+
+[T73](T0073_set_matrix_zeroes)
+
+[T75](T0075_sort_colors)
+
 [T687](T0687_longest_univalue_path)
