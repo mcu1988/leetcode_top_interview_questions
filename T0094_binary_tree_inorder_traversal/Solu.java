@@ -43,7 +43,7 @@ class Solu {
         // 方法2
         // 使用非递归实现
         // 将树按照左边界划分，当前节点一直往左边界遍历，遍历结束后，再把当前节点指向左边界的右节点
-        // 时间复杂度O(N), 空间复杂度O(1)
+        // 时间复杂度O(N), 空间复杂度O(N)
         public List<Integer> inorderTraversal(TreeNode root) {
             if(root == null) return new ArrayList<>();
 
