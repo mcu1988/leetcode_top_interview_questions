@@ -106,4 +106,6 @@
 
 [T84](T0084_largest_rectangle_in_histogram)
 
+[T88](T0088_merge_sorted_array)
+
 [T687](T0687_longest_univalue_path)
