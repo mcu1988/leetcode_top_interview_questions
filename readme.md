@@ -104,4 +104,6 @@
 
 [T79](T0079_word_search)
 
+[T84](T0084_largest_rectangle_in_histogram)
+
 [T687](T0687_longest_univalue_path)
