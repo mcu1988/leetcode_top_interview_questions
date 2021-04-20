@@ -108,4 +108,6 @@
 
 [T88](T0088_merge_sorted_array)
 
+[T91](T0091_decode_ways)
+
 [T687](T0687_longest_univalue_path)
