@@ -114,4 +114,6 @@
 
 [T98](T0098_validate_binary_search_tree)
 
+[T101](T0101_symmetric_tree)
+
 [T687](T0687_longest_univalue_path)
