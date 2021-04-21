@@ -120,4 +120,6 @@
 
 [T103](T0103_binary_tree_zigzag_level_order_traversal)
 
+[T104](T0104_maximum_depth_of_binary_tree)
+
 [T687](T0687_longest_univalue_path)
