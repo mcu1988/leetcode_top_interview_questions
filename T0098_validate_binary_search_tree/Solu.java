@@ -119,8 +119,7 @@ class Solu {
         Solution app = new Solution();
 
         Solution.TreeNode root = new Solution.TreeNode(Integer.MAX_VALUE);
-//        root.left = new Solution.TreeNode(1);
-//        root.right = new Solution.TreeNode(3);
+        root.left = new Solution.TreeNode(Integer.MIN_VALUE);
 
         System.out.println(app.isValidBST(root));
 
