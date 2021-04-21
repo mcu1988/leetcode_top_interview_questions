@@ -112,4 +112,6 @@
 
 [T94](T0094_binary_tree_inorder_traversal)
 
+[T98](T0098_validate_binary_search_tree)
+
 [T687](T0687_longest_univalue_path)
