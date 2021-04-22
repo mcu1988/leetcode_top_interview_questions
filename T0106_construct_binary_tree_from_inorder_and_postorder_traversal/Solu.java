@@ -66,9 +66,9 @@ class Solu {
 
         Solution app = new Solution();
 
-        int[] preorder = {3,9,20,15,7};
+        int[] postorder = {9,15,7,20,3};
         int[] inorder = {9,3,15,20,7};
 
-        System.out.println(app.buildTree(preorder, inorder));
+        app.buildTree(inorder, postorder);
     }
 }
