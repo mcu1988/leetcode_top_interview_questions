@@ -126,4 +126,6 @@
 
 [T106](T0106_construct_binary_tree_from_inorder_and_postorder_traversal)
 
+[T108](T0108_convert_sorted_array_to_binary_search_tree)
+
 [T687](T0687_longest_univalue_path)
