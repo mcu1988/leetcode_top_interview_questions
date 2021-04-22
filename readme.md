@@ -122,4 +122,6 @@
 
 [T104](T0104_maximum_depth_of_binary_tree)
 
+[T105](T0105_construct_binary_tree_from_preorder_and_inorder_traversal)
+
 [T687](T0687_longest_univalue_path)
