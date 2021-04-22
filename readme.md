@@ -124,4 +124,6 @@
 
 [T105](T0105_construct_binary_tree_from_preorder_and_inorder_traversal)
 
+[T106](T0106_construct_binary_tree_from_inorder_and_postorder_traversal)
+
 [T687](T0687_longest_univalue_path)
