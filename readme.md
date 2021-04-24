@@ -132,4 +132,6 @@
 
 [T118](T0118_pascal_triangle)
 
+[T121](T0121_best_time_to_buy_and_sell_stock)
+
 [T687](T0687_longest_univalue_path)
