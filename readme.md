@@ -138,4 +138,6 @@
 
 [T124](T0124_binary_tree_maximum_path_sum)
 
+[T125](T0125_valid_palindrome)
+
 [T687](T0687_longest_univalue_path)
