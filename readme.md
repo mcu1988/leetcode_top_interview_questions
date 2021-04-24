@@ -130,4 +130,6 @@
 
 [T116](T0116_populating_next_right_pointers_in_each_node)
 
+[T118](T0118_pascal_triangle)
+
 [T687](T0687_longest_univalue_path)
