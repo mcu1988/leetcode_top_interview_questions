@@ -100,7 +100,7 @@
 
 [T76](T0076_minimum_window_substring)
 
-[T78](T0078_subsets)
+[T78](T0078_subsets)K
 
 [T79](T0079_word_search)
 
