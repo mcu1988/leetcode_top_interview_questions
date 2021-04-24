@@ -10,7 +10,7 @@ class Solu {
         // 时间复杂度O(N), 空间复杂度O(1）
         public int maxProfit(int[] prices) {
 
-            if(prices == null || prices.length == 0) return 0;
+            if(prices == null || prices.length < 2) return 0;
 
             // min初始值为第0个元素
             int min = prices[0], result = 0;
