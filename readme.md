@@ -140,4 +140,6 @@
 
 [T125](T0125_valid_palindrome)
 
+[T127](T0127_word_ladder)
+
 [T687](T0687_longest_univalue_path)
