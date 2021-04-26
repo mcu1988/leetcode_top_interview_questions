@@ -146,4 +146,6 @@
 
 [T130](T0130_surrounded_regions)
 
+[T131](T0131_palindrome_partitioning)
+
 [T687](T0687_longest_univalue_path)
