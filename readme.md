@@ -152,4 +152,6 @@
 
 [T136](T0136_single_number)
 
+[T138](T0138_copy_list_with_random_pointer)
+
 [T687](T0687_longest_univalue_path)
