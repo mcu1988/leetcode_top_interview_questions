@@ -10,7 +10,7 @@ class Solu {
         // 方法1
         // 递归遍历字符串，使用start标记当前遍历的位置
         // 依次尝试start开始的不同长度的字符串
-        // 时间复杂度O(2^N-1 * N), 总共有2^N-1种分割，每种分割判断回文O(N), 空间复杂度O(N)
+        // 时间复杂度O(2^N-1 * N), 总共有2^N-1种分割，共N-1个间隔，每个间隔可以放0和1，每种分割判断回文O(N), 空间复杂度O(N)
         public List<List<String>> partition1(String s) {
 
             if(s == null || s.length() == 0) return new ArrayList<>();
