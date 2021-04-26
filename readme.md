@@ -142,4 +142,6 @@
 
 [T127](T0127_word_ladder)
 
+[T128](T0128_longest_consecutive_sequence)
+
 [T687](T0687_longest_univalue_path)
