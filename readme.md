@@ -154,4 +154,6 @@
 
 [T138](T0138_copy_list_with_random_pointer)
 
+[T139](T0139_word_break)
+
 [T687](T0687_longest_univalue_path)
