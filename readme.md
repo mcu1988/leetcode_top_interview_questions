@@ -158,8 +158,10 @@
 
 [T140](T0140_word_break_ii)
 
+[T141](T0141_linked_list_cycle)
+
 [T146](T0146_LRU_cache)
 
-[T141](T0141_linked_list_cycle)
+[T148](T0148_sort_list)
 
 [T687](T0687_longest_univalue_path)
