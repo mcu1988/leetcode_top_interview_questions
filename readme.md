@@ -166,4 +166,6 @@
 
 [T149](T0149_max_points_on_a_line)
 
+[T150](T0150_evaluate_reverse_polish_notation)
+
 [T687](T0687_longest_univalue_path)
