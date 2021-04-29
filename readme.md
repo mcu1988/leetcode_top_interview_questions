@@ -168,4 +168,6 @@
 
 [T150](T0150_evaluate_reverse_polish_notation)
 
+[T152](T0152_maximum_product_subarray)
+
 [T687](T0687_longest_univalue_path)
