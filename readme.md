@@ -176,4 +176,6 @@
 
 [T162](T0162_find_peak_element)
 
+[T166](T0166_fraction_to_recurring_decimal)
+
 [T687](T0687_longest_univalue_path)
