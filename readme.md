@@ -170,4 +170,10 @@
 
 [T152](T0152_maximum_product_subarray)
 
+[T155](T0155_min_stack)
+
+[T160](T0160_intersection_of_two_linked_lists)
+
+[T162](T0162_find_peak_element)
+
 [T687](T0687_longest_univalue_path)
