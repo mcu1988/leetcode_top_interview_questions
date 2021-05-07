@@ -182,4 +182,6 @@
 
 [T171](T0171_excel_sheet_column_number)
 
+[T172](T0172_factorial_trailing_zeroes)
+
 [T687](T0687_longest_univalue_path)
