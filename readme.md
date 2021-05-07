@@ -188,4 +188,6 @@
 
 [T189](T0189_rotate_array)
 
+[T190](T0190_reverse_bits)
+
 [T687](T0687_longest_univalue_path)
