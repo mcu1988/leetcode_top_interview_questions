@@ -15,22 +15,21 @@ class Solu {
             if(nums == null || nums.length == 0)
                 return "";
 
-            boolean isAll0 = true;
             String[] arr = new String[nums.length];
             for(int i=0; i<nums.length; i++) {
                 arr[i] = String.valueOf(nums[i]);
-                if(nums[i] != 0) isAll0 = false;
             }
 
-            // 去除全为0的情况
-            if(isAll0) return "0";
-
             Arrays.sort(arr, (a, b) -> (b + a).compareTo(a + b));
+
+            // 如果排序后的第一个位置是0，那么整个数组都是0， 返回"0"
+            if(arr[0] == "0") return "0";
 
             String result = "";
             for(String str : arr) {
                 result += str;
             }
+
             return result;
         }
     }
