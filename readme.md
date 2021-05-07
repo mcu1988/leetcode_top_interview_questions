@@ -186,4 +186,6 @@
 
 [T179](T0179_largest_number)
 
+[T189](T0189_rotate_array)
+
 [T687](T0687_longest_univalue_path)
