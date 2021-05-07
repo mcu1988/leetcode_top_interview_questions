@@ -180,4 +180,6 @@
 
 [T169](T0169_majority_element)
 
+[T171](T0171_excel_sheet_column_number)
+
 [T687](T0687_longest_univalue_path)
