@@ -192,4 +192,6 @@
 
 [T191](T0191_number_of_1_bits)
 
+[T198](T0198_house_robber)
+
 [T687](T0687_longest_univalue_path)
