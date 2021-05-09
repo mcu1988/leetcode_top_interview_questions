@@ -6,7 +6,7 @@ class Solu {
 
         // 方法1
         // 逐个统计每个位上是否是1
-        // 时间复杂度O(32), 空间复杂度(1)
+        // 时间复杂度O(32), 空间复杂度O(1)
         public int hammingWeight1(int n) {
 
             int result = 0;
@@ -21,7 +21,7 @@ class Solu {
 
         // 方法2
         // n & (n - 1)消去最低位上的1
-        // 时间复杂度O(32), 空间复杂度(1)
+        // 时间复杂度O(32), 空间复杂度O(1)
         public int hammingWeight(int n) {
 
             int result = 0;
