@@ -196,4 +196,6 @@
 
 [T200](T0200_number_of_islands)
 
+[T202](T0202_happy_number)
+
 [T687](T0687_longest_univalue_path)
