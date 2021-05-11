@@ -206,6 +206,6 @@
 
 [T208](T0208_implement_trie_prefix_tree)
 
-[T0210](T0210_course_schedule_ii)
+[T210](T0210_course_schedule_ii)
 
 [T687](T0687_longest_univalue_path)
