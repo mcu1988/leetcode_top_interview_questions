@@ -146,7 +146,11 @@ class Solu {
 
         Solution app = new Solution();
 
+        int numCourses = 4;
+        int[][] prerequisites = {{1,0},{2,0},{3,1},{3,2}};
+        app.findOrder(numCourses, prerequisites);
 
+        System.out.println(app.findOrder(numCourses, prerequisites));
 
     }
 }
