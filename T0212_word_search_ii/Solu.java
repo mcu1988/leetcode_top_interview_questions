@@ -276,7 +276,11 @@ class Solu {
 
         Solution app = new Solution();
 
+        char[][] board = {{'o','a','a','n'},{'e','t','a','e'},{'i','h','k','r'},{'i','f','l','v'}};
+        String[] words = {"oath","pea","eat","rain"};
 
+        app.findWords(board, words);
 
+        System.out.println(app.findWords(board, words));
     }
 }
